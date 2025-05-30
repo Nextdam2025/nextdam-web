@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const res = await fetch('https://api.openai.com/v1/chat/completions', {
         method: 'POST',
         headers: {
-          'Authorization': 'Bearer YOUR_OPENAI_API_KEY',
+          'Authorization': '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',
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
